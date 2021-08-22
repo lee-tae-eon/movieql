@@ -1,0 +1,23 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "movie api with graphQl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-tae-eon/movieql.git"
+  },
+  "keywords": [
+    "lee-tae-eon",
+    "mktears0609@gmail.com>"
+  ],
+  "author": "lee-tae-eon mktears0609@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lee-tae-eon/movieql/issues"
+  },
+  "homepage": "https://github.com/lee-tae-eon/movieql#readme"
+}
