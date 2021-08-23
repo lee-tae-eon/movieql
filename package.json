@@ -4,20 +4,30 @@
   "description": "movie api with graphQl",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lee-tae-eon/movieql.git"
   },
   "keywords": [
-    "lee-tae-eon",
-    "mktears0609@gmail.com>"
+    "graph-QL",
+    "API"
   ],
   "author": "lee-tae-eon mktears0609@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lee-tae-eon/movieql/issues"
   },
-  "homepage": "https://github.com/lee-tae-eon/movieql#readme"
+  "homepage": "https://github.com/lee-tae-eon/movieql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  }
 }
