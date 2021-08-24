@@ -45,3 +45,5 @@ export const deleteMovie = (id) => {
     return false;
   }
 };
+
+console.log("heello");
