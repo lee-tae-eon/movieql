@@ -7,3 +7,6 @@ const resolvers = {
 };
 
 export default resolvers;
+
+
+console.log("heeelo");
