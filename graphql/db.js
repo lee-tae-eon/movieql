@@ -4,6 +4,7 @@ const LIST_MOVIES_URL = `${BASE_URL}list_movies.json`;
 const MOVIE_DETAILS_URL = `${BASE_URL}movie_details.json`;
 const MOVIE_SUGGESTIONS_URL = `${BASE_URL}movie_suggestions.json`;
 
+<<<<<<< HEAD
 export const getMovies = async (limit, rating) => {
   const {
     data: {
@@ -42,4 +43,21 @@ export const getSuggestions = async (id) => {
     },
   });
   return movies;
+=======
+const API_URL = "https://yts.mx/api/v2/list_movies.json?";
+
+export const getMovies = (limit, rating) => {
+  let REQUEST_URL = API_URL;
+  if (limit > 0) {
+    REQUEST_URL += `limit=${limit}`;
+  }
+  if (rating > 0) {
+    REQUEST_URL += `&minimum_rating=${rating}`;
+  }
+  return fetch(REQUEST_URL)
+    .then((res) => res.json())
+    .then((json) => json.data.movies);
+>>>>>>> 5ec6612916b97b7e8073dccecbe498ad8e698105
 };
+
+console.log("hello");
